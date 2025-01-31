@@ -37,10 +37,8 @@ track and analyze trending AI/ML repositories on GitHub, generating daily and we
    BASECAMP_PROJECT_ID=
    BASECAMP_ACCESS_TOKEN=
 
-# Usage
+# Usage: Daily Monitoring
 
-**Daily Monitoring
-**
 Run: python daily_osmonitor.py. Generates a weekly summary with:
 - Week-over-week growth analysis
 - Top 10 repositories by weekly growth
