@@ -2,7 +2,7 @@
 This library includes tools for monitoring interesting open-source repositories on GitHub. The pre-loaded search queries generate reporting specifically for AI/LLM-focused repos with over 500 stars but the query terms are easy to interchange for other terms depending on your intended usage.
 
 **daily_osmonitor and weekly_osmonitor**
-Automated tools that track and analyze trending AI/ML repositories on GitHub, generating daily and weekly reports with growth metrics and intelligent summaries.
+track and analyze trending AI/ML repositories on GitHub, generating daily and weekly reports with growth metrics and intelligent summaries.
 
 ## Features
 🤖 Tracks AI/ML repositories using GitHub's search API
@@ -18,7 +18,8 @@ Automated tools that track and analyze trending AI/ML repositories on GitHub, ge
 2. Install dependencies:
    pip install -r requirements.txt
 3. Create a .env file with the following variables:
-      GitHub App credentials
+   
+   GitHub App credentials
    APP_ID=
    PRIVATE_KEY_PATH=
    INSTALLATION_ID=
@@ -38,8 +39,10 @@ Automated tools that track and analyze trending AI/ML repositories on GitHub, ge
 
 ## Usage
 **Daily Monitoring
-Run:
+**
+*Run*:
   python daily_osmonitor.py
+  
 Generates a weekly summary with:
 Week-over-week growth analysis
 Top 10 repositories by weekly growth
