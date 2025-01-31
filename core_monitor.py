@@ -27,7 +27,7 @@ BASECAMP_ACCESS_TOKEN = os.getenv("BASECAMP_ACCESS_TOKEN")
 
 # ======== YOUR CONFIG ========
 APP_ID = os.getenv("APP_ID")
-PRIVATE_KEY_PATH = '/Users/shanreddy/Desktop/osmonitor/secrets/github_app_private_key.pem'
+PRIVATE_KEY_PATH = os.getenv("PRIVATE_KEY_PATH")
 INSTALLATION_ID = os.getenv("INSTALLATION_ID")
 DB_PATH = "repos.db"
 SEARCH_QUERY = "(gpt OR llm OR 'generative ai OR finetuning OR agent') in:name,description,readme stars:>500"
