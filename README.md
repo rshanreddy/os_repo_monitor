@@ -5,13 +5,13 @@ This library includes tools for monitoring interesting open-source repositories 
 track and analyze trending AI/ML repositories on GitHub, generating daily and weekly reports with growth metrics and intelligent summaries.
 
 ## Features
-🤖 Tracks AI/ML repositories using GitHub's search API
-📊 Calculates daily and weekly growth metrics
-🧠 Uses Claude 3.5 to analyze trends and generate insights
-📝 Generates structured Markdown reports
-📈 Syncs data to Airtable for persistent tracking
-📫 Posts reports to Basecamp automatically
-🗄️ SQLite database for historical tracking
+🤖 Tracks AI/ML repositories using GitHub's search API\
+📊 Calculates daily and weekly growth metrics\
+🧠 Uses Claude 3.5 to analyze trends and generate insights\
+📝 Generates structured Markdown reports\
+📈 Syncs data to Airtable for persistent tracking\
+📫 Posts reports to Basecamp automatically\
+🗄️ SQLite database for historical tracking\
 
 ## Setup
 1. Clone the repository
